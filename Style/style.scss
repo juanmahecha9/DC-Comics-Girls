@@ -1,0 +1,190 @@
+body {
+    background-image: url(../Fondo/N-Best-The-Joker-HD-Wallpapers-That-You-Can-Download-11_4d470f76dc99e18ad75087b1b8410ea9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.stiky{
+    margin-left: 8cm;
+    margin-right: 1cm;
+    position: sticky;
+    top: 0;
+    background-color: black;
+    border: 2px red solid;
+}
+
+#container {
+    padding-left: 5cm;
+    padding-right: 1cm;
+    text-align: center;
+}
+
+
+header{
+    padding-left: 5cm;
+    padding-right: 1cm;
+    text-align: right;
+    nav>li a{
+        text-decoration: none;
+        color: wheat
+    }
+}
+
+#menu .lista>li {
+    margin-left: 8cm;
+    color: white;
+    text-align: justify;
+}
+
+#menu a:link {
+    font-size: 25px;
+    color: rgb(11, 14, 177);
+    text-decoration: none;
+
+}
+
+#menu a:hover {
+    font-size: 25px;
+    color: rgba(251, 251, 251, 0.555);
+    text-decoration: none;
+}
+
+#menu a:active {
+    color: rgb(4, 0, 255);
+}
+
+.relativo{
+    border: white 5px inset;
+    margin-bottom: 1rem;
+}
+.relativo .titule{
+    color: white;
+    position: relative;
+    left: 217px;
+    top: 10px;
+   
+}
+
+.absolute{
+    border: white 5px inset;
+    margin-bottom: 1rem;
+   
+    .descripcion{
+        color: white;
+        //position: absolute;
+        top: 200px;
+    }
+    .conte{
+        width: 100%;
+        display: inline-flex;
+        .pa{
+            width: 60%;
+            margin-right: 40px;
+        }
+        .ima{
+            width: 30%;
+            .dc{
+                height: 300px;
+                width: 300px;
+            }
+        }
+    }
+}
+
+
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: wheat;
+    text-align: right;
+    font-size: 35px;
+}
+
+p {
+    color: rgb(81, 255, 0);
+    font-size: 20px;
+
+}
+
+
+.img1 {
+    width: 500px;
+}
+
+.b {
+    border: 5px ridge rgb(255, 255, 255);
+    margin-bottom: 1rem;
+}
+
+.b a {
+    color: green;
+}
+
+.b a:hover {
+    font-size: 25px;
+    color: rgba(251, 251, 251, 0.555);
+    text-decoration: none;
+}
+
+.b a:active {
+    color: rgb(4, 0, 255);
+}
+
+span {
+    font-size: 25px;
+    color: rgb(251, 251, 251);
+    text-decoration: none;
+
+}
+
+.noOrdenada {
+    margin-left: 12cm;
+    color: rgb(81, 255, 0);
+    text-align: justify;
+    font-size: 20px;
+
+}
+
+.tabla{
+    color: whitesmoke;
+    border: 5px whitesmoke dashed;
+    border-radius: 20px;;
+    tr>th{
+        border: 1px whitesmoke hidden;
+        border-radius:17px;
+    }
+    tr>td{
+        border: 1px whitesmoke outset;
+        border-radius:17px;
+    }
+    
+}
+
+.jocker{
+    margin-left: 1cm;
+    background-color: grey;
+    width: 400px;
+    height: 100px;
+    overflow: scroll;
+
+}
+
+
+dl>dt, dl>dd {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: red;
+    margin-left: 15cm;
+    margin-right: 12cm;
+}
+
+

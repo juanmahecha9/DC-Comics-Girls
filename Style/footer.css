@@ -1,0 +1,67 @@
+.pie_pagina {
+  margin-left: 5cm;
+  margin-right: 5cm;
+  background-color: #fd0000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.pie_pagina p {
+  margin-left: 10px;
+}
+
+.pie_pagina .formulario {
+  max-width: 1000px;
+  padding: 40px;
+  font-size: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.pie_pagina form {
+  width: 450px;
+  margin: auto;
+  padding: 20px 20px 10px 10px;
+  background-color: rgba(246, 141, 2, 0.685);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+}
+
+h4 {
+  color: wheat;
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  margin: 5px;
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+}
+
+#boton {
+  background-color: black;
+  color: cornsilk;
+  padding: 10px;
+  border: black;
+}
+
+#boton:hover {
+  cursor: pointer;
+  color: red;
+  border: red 4px solid;
+  font-size: 20px;
+}
+/*# sourceMappingURL=footer.css.map */
